@@ -1,5 +1,5 @@
 // created by Syura Utama Putra at 2022/08/22 09:32.
-// 
+//
 // React Native Front End Lemonilo
 
 import * as React from 'react';
@@ -122,19 +122,19 @@ const ImageVIew = ({image}) => {
 
 const Arctic = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Settings!</Text>
+    <View>
+      <Text>Arctic</Text>
     </View>
   );
-}
+};
 
-const AmazingPools = () =>  {
+const AmazingPools = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={{fontSize: 8}}>Profile</Text>
+    <View>
+      <Text>AmazingPools</Text>
     </View>
   );
-}
+};
 
 const Islands = () => {
   return (
@@ -142,7 +142,7 @@ const Islands = () => {
       <Text>Islands</Text>
     </View>
   );
-}
+};
 
 const NationalsParks = () => {
   return (
@@ -150,7 +150,7 @@ const NationalsParks = () => {
       <Text>NationalsParks</Text>
     </View>
   );
-}
+};
 
 const TabTop = createMaterialTopTabNavigator();
 
